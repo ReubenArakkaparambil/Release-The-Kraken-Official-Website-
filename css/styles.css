@@ -1,0 +1,263 @@
+body
+{
+  background-color: #EEF1FF;
+}
+h2
+{
+  font-family: 'Uncial Antiqua', cursive;
+  color : #FFFFFF;
+}
+p
+{
+  font-size: 1rem;
+}
+/* Navbar */
+.spacedenahai
+{
+  margin-right: 3%;
+}
+.nav-item
+{
+  margin-right: 26px;
+  font-size: 1rem;
+}
+/* title */
+#Title
+{
+  height: 369px;
+  padding-bottom: 7%;
+}
+#shithole
+{
+  font-family: 'Uncial Antiqua', cursive;
+  line-height: 1.5;
+  font-size: 3rem;
+  color: #850E35;
+}
+.download-button
+{
+  margin: 3% 5% 3% 0;
+}
+#kaala-kar
+{
+  background-color: #191919;
+  color: white;
+}
+#kaala-kar:hover
+{
+  background-color: #534E52;
+}
+.padd
+{
+  padding-right: 1.8px;
+}
+#gora-kar
+{
+  color:black;
+}
+.floatkarenge
+{
+  width: 340px;
+  height: 400px;
+  position: absolute;
+  transform: rotate(-10deg);
+  left : 55%;
+}
+
+/* Features */
+#features
+{
+  background-color: #EC7272;
+  position: relative;
+}
+.container-fluid
+{
+  padding: 1% 5% ;
+}
+.centerkarega
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  padding : 7% 5% 7% 0;
+  text-align: center;
+}
+.icon
+{
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#534E52;
+}
+
+
+/* whocreatedit */
+#whocreatedit
+{
+  padding-top: 2%;
+  text-align: center;
+  background-color: #FA9494;
+}
+.carousel-item
+{
+padding :2% 15% 7% 15%;
+}
+.carousel-caption d-none d-md-block
+{
+  display: block;
+}
+.carousel-indicators
+{
+  padding-top: 30px;
+}
+.carousel-inner
+{
+  margin-top: 10px;
+}
+.testcreator
+{
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+  padding-bottom: 10px;
+}
+.aslimazabe
+{
+padding-top: 2%;
+font-family: 'Uncial Antiqua', cursive;
+color : #FFFFFF;
+text-decoration: none;
+font-size: 1.4rem;
+}
+.aslimazabe:hover
+{
+  color :#191919;
+}
+
+
+/* Press */
+#press
+{
+  background-color: #FA9494;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.bolo
+{
+  width: 13%;
+  margin: 14px;
+  padding: 20px;
+}
+
+
+/* Pricing */
+#pricing
+{
+  background-color: #AAC4FF;
+  padding: 100px;
+}
+.btn-light
+{
+  border-color: black;
+}
+.card-body
+{
+  text-align: center;
+}
+.cry
+{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+
+/* Call to action */
+#cta
+{
+  text-align: center;
+  background-color: #EEF1FF;
+}
+.buttond{
+  font-size:15px;
+  font-family: 'Uncial Antiqua', cursive;
+  width:133px;
+  height:49px;
+  border-width:1px;
+  color:rgba(252, 240, 240, 1);
+  border-color:rgba(43, 43, 212, 1);
+  font-weight:bold;
+  font-style:italic;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
+  box-shadow: 4px 4px 4px 1px rgba(25, 102, 173, 1);
+  text-shadow: 11px 2px 8px rgba(68, 140, 197, 1);
+  background:linear-gradient(#79bbff, rgba(223, 239, 255, 1));
+  margin: 20px;
+}
+.buttond:hover {
+  background: linear-gradient(rgba(223, 239, 255, 1), #79bbff);
+}
+.thendi
+{
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+
+/* Footer */
+#footer
+{
+  text-align: center;
+  padding: 2% 0% 0% 0%;
+  background-color: #EEF1FF;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.ficons
+{
+  color: #3330E4;
+  margin: 1%;
+  size : 200rem;
+}
+.ficons:hover
+{
+  color :#FF8FB1;
+}
+.fa-square-instagram
+{
+  color: #FF0063;
+  margin: 1%;
+  size : 200rem;
+}
+.fa-square-instagram:hover
+{
+  color :#FF8FB1;
+}
+.hellno
+{
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+
+
+
+
+
+/* Media Query */
+@media (max-width : 1028px) {
+  .floatkarenge
+  {
+    position: static;
+    transform: rotate(0);
+    width: 200px;
+    height:250px;
+  }
+  #shithole
+  {
+    text-align: center;
+  }
+  #features
+  {
+    z-index: 0;
+  }
+}
