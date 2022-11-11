@@ -1,6 +1,6 @@
 body
 {
-  background-color: #EEF1FF;
+  background-color: #06283D;
 }
 h2
 {
@@ -32,7 +32,7 @@ p
   font-family: 'Uncial Antiqua', cursive;
   line-height: 1.5;
   font-size: 3rem;
-  color: #850E35;
+  color: #42C2FF;
 }
 .download-button
 {
@@ -53,7 +53,11 @@ p
 }
 #gora-kar
 {
-  color:black;
+  color: #FFFAE7;
+}
+#gora-kar:hover
+{
+    background-color: #251B37;
 }
 .floatkarenge
 {
@@ -67,7 +71,7 @@ p
 /* Features */
 #features
 {
-  background-color: #EC7272;
+  background-color: #5B7DB1;
   position: relative;
 }
 .container-fluid
@@ -76,7 +80,7 @@ p
 }
 .centerkarega
 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Rubik Bubbles', cursive;
   font-size: 1.2rem;
   padding : 7% 5% 7% 0;
   text-align: center;
@@ -96,7 +100,7 @@ p
 {
   padding-top: 2%;
   text-align: center;
-  background-color: #FA9494;
+  background-color: #15133C;
 }
 .carousel-item
 {
@@ -138,7 +142,7 @@ font-size: 1.4rem;
 /* Press */
 #press
 {
-  background-color: #FA9494;
+  background-color: #15133C;
   text-align: center;
   padding-bottom: 4%;
 }
@@ -148,13 +152,18 @@ font-size: 1.4rem;
   margin: 14px;
   padding: 20px;
 }
-
+.badaho
+{
+  height: 110%;
+  width:100%;
+}
 
 /* Pricing */
 #pricing
 {
-  background-color: #AAC4FF;
+  background-color: #A4EBF3;
   padding: 100px;
+  text-align: center;
 }
 .btn-light
 {
@@ -175,7 +184,7 @@ font-size: 1.4rem;
 #cta
 {
   text-align: center;
-  background-color: #EEF1FF;
+  background-color: #06283D;
 }
 .buttond{
   font-size:15px;
@@ -202,6 +211,7 @@ font-size: 1.4rem;
 .thendi
 {
   font-family: 'Uncial Antiqua', cursive;
+  color: #42C2FF;
 }
 
 
@@ -210,7 +220,7 @@ font-size: 1.4rem;
 {
   text-align: center;
   padding: 2% 0% 0% 0%;
-  background-color: #EEF1FF;
+  background-color: #06283D;
   font-family: 'Josefin Sans', sans-serif;
 }
 .ficons
@@ -237,7 +247,12 @@ font-size: 1.4rem;
 {
   font-family: 'Uncial Antiqua', cursive;
 }
-
+.seeyousoon
+{
+  position: relative;
+  margin: auto;
+  padding: 3% 5% 3% 0%;
+}
 
 
 
@@ -260,4 +275,40 @@ font-size: 1.4rem;
   {
     z-index: 0;
   }
+}
+#steps
+{
+  background-color: #BCEAD5;
+  padding: 100px;
+}
+.joannereubenkavaava
+{
+  font-size: 1.1rem;
+}
+.khushisemaardaalegi
+{
+  font-family: 'Rubik Bubbles', cursive;
+  text-align: center;
+}
+.buttondk {
+	box-shadow:inset 0px 1px 15px 0px #fff1f0;
+	background-color:transparent;
+	border-radius:7px;
+	border:3px solid #e0b3af;
+	display:inline-block;
+	cursor:pointer;
+	color:#0d0303;
+	font-family: 'Rubik Bubbles', cursive;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.buttondk:hover {
+	background-color:transparent;
+}
+.buttondk:active {
+	position:relative;
+	top:1px;
 }
